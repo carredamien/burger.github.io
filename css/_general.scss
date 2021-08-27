@@ -1,0 +1,119 @@
+
+ *{
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+}
+.site{
+    font-family: 'Holtwood One SC', sans-serif;
+}
+body{
+    background: url('../images/background/bg.png');
+}
+.text__logo{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: $orange;
+    text-shadow: 1.5px 1.5px $jaune;
+    font-size: 2.2rem;
+    padding: 2.4rem 0px;
+    text-align: center;
+
+.fa-utensils{
+    color: $jaune;
+    text-shadow: none;
+}
+}.card{
+    margin-top:1.6vw; 
+}
+.card-img-top{
+        background-color:$jaune;
+        margin: 0.8vw;
+        width:auto;
+}
+.price{
+    background: $price ;
+    color:$blanc;
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right:-9px;
+    top:1.1rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
+.price:before{
+    border: 4px solid transparent;
+    border-right: 4px solid #4a934a;
+    content:"";
+    position: absolute;
+    right: 4px;
+    top:-4px;
+    transform: rotate(-45deg);
+}
+.caption> h4{
+    color: $orange;
+    font-size: 1.1rem;
+}
+.nav-item>.active,.nav-item>.active>a:focus, .nav-item>.active>a:hover{
+    font-family: 'Holtwood One SC', sans-serif;
+    background-color: $orange !important;
+    color:#eee !important;
+}
+.nav-link{
+    font-family: 'Holtwood One SC', sans-serif;
+    color:#eee;
+    font-size: 1rem;
+    text-shadow: 2px 2px #333;
+}
+.nav-link:focus, .nav-link:hover{
+    color:$orange;
+    background-color: $blanc;
+}
+.button-order{
+    display: block;
+    width:100%;
+    margin:0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    text-align: center;
+    color:$blanc;
+    background-color: $orange;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.button-order:hover, .button-order:focus{
+    color: $blanc;
+    background-color: #c13c0d;
+    text-decoration: none;
+}
+
+
+//admin
+
+.admin{
+    background-color:$blanc;
+    padding: 3.2rem;
+    border-radius: 10px;
+}
+.back__title{
+    
+    font-size: 1.8rem;
+  
+    & strong{
+       margin: 0 1vw 2vw 0;
+ }  
+}
+.btn-secondary{
+   color: red important;
+}
+
+td{
+  vertical-align:middle!important;
+}
+
+// insert
+
+.help-inline{
+    color:red;
+}
